@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void){
+    // Code bai 1:
+    printf("Cac so nguyen co hai chu so va la boi cua 7 la: ");
+    for(int i=10;i<100;i++)
+    {
+        if(i%7==0)
+        printf("%d ,",i);
+    }
+}
